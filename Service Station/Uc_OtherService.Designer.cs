@@ -31,7 +31,6 @@ namespace Service_Station
         {
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.comboBox2 = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
@@ -40,11 +39,11 @@ namespace Service_Station
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(0, 96);
+            this.dataGridView1.Location = new System.Drawing.Point(0, 128);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 29;
-            this.dataGridView1.Size = new System.Drawing.Size(916, 558);
+            this.dataGridView1.Size = new System.Drawing.Size(913, 526);
             this.dataGridView1.TabIndex = 0;
             // 
             // comboBox1
@@ -59,28 +58,21 @@ namespace Service_Station
             "Vehicle Recovery"});
             this.comboBox1.Location = new System.Drawing.Point(134, 43);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(253, 36);
+            this.comboBox1.Size = new System.Drawing.Size(151, 36);
             this.comboBox1.TabIndex = 1;
-            // 
-            // button1
-            // 
-            this.button1.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button1.Location = new System.Drawing.Point(706, 35);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(115, 49);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Search";
-            this.button1.UseVisualStyleBackColor = true;
+            this.comboBox1.Text = "Services";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(847, 35);
+            this.button2.Location = new System.Drawing.Point(610, 35);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(115, 49);
             this.button2.TabIndex = 3;
             this.button2.Text = "Refresh";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // comboBox2
             // 
@@ -95,8 +87,10 @@ namespace Service_Station
             "Bus"});
             this.comboBox2.Location = new System.Drawing.Point(403, 43);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(253, 36);
+            this.comboBox2.Size = new System.Drawing.Size(151, 36);
             this.comboBox2.TabIndex = 4;
+            this.comboBox2.Text = "Vehicles";
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
             // 
             // Uc_OtherService
             // 
@@ -104,11 +98,11 @@ namespace Service_Station
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.Controls.Add(this.comboBox2);
             this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.dataGridView1);
             this.Name = "Uc_OtherService";
             this.Size = new System.Drawing.Size(1012, 654);
+            this.Load += new System.EventHandler(this.Uc_OtherService_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
 
@@ -118,7 +112,6 @@ namespace Service_Station
 
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.ComboBox comboBox2;
     }

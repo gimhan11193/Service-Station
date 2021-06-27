@@ -1,0 +1,55 @@
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.exe
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.deps.json
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.runtimeconfig.json
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.runtimeconfig.dev.json
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.dll
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.pdb
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\~gima~\source\repos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.csprojAssemblyReference.cache
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Form1.resources
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Typeservice.resources
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Uc_ServiceType.resources
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.csproj.GenerateResource.cache
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.AssemblyInfoInputs.cache
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.AssemblyInfo.cs
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.csproj.CoreCompileInputs.cache
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.csproj.CopyComplete
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.dll
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.pdb
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.genruntimeconfig.cache
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Uc_OtherService.resources
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Login.resources
+C:\Users\~gima~\source\repos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.HomepgLogin.resources
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.csprojAssemblyReference.cache
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Form1.resources
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.HomepgLogin.resources
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Typeservice.resources
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Uc_OtherService.resources
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.csproj.GenerateResource.cache
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.AssemblyInfoInputs.cache
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.AssemblyInfo.cs
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.csproj.CoreCompileInputs.cache
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.dll
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.pdb
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.exe
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.deps.json
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.runtimeconfig.json
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.runtimeconfig.dev.json
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.dll
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\Service Station.pdb
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\~gima~\Videos\Service Station\Service Station\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.csproj.CopyComplete
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service Station.genruntimeconfig.cache
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.NewLog.resources
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Uc_CustomerDetails.resources
+C:\Users\~gima~\Videos\Service Station\Service Station\obj\Debug\netcoreapp3.1\Service_Station.Uc_ServiceAccountsDetails.resources

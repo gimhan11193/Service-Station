@@ -31,12 +31,13 @@ namespace Service_Station
         {
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.textBox1 = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.btn_engineOil_refresh = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
             this.tabPage3 = new System.Windows.Forms.TabPage();
@@ -65,8 +66,8 @@ namespace Service_Station
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.comboBox2);
             this.tabPage1.Controls.Add(this.dataGridView1);
-            this.tabPage1.Controls.Add(this.textBox1);
             this.tabPage1.Controls.Add(this.button2);
             this.tabPage1.Controls.Add(this.button1);
             this.tabPage1.Controls.Add(this.comboBox1);
@@ -79,6 +80,23 @@ namespace Service_Station
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
             // 
+            // comboBox2
+            // 
+            this.comboBox2.Font = new System.Drawing.Font("UniSansBold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Items.AddRange(new object[] {
+            "Car",
+            "Bike",
+            "Van",
+            "Lorry",
+            "Bus"});
+            this.comboBox2.Location = new System.Drawing.Point(257, 68);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(140, 29);
+            this.comboBox2.TabIndex = 10;
+            this.comboBox2.Text = "Vehicle";
+            this.comboBox2.SelectedIndexChanged += new System.EventHandler(this.comboBox2_SelectedIndexChanged);
+            // 
             // dataGridView1
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
@@ -88,14 +106,6 @@ namespace Service_Station
             this.dataGridView1.RowTemplate.Height = 29;
             this.dataGridView1.Size = new System.Drawing.Size(730, 394);
             this.dataGridView1.TabIndex = 9;
-            // 
-            // textBox1
-            // 
-            this.textBox1.Font = new System.Drawing.Font("UniSansBold", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(246, 68);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(153, 29);
-            this.textBox1.TabIndex = 8;
             // 
             // button2
             // 
@@ -138,6 +148,7 @@ namespace Service_Station
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.btn_engineOil_refresh);
             this.tabPage2.Controls.Add(this.label1);
             this.tabPage2.Controls.Add(this.dataGridView2);
             this.tabPage2.Location = new System.Drawing.Point(4, 29);
@@ -148,6 +159,17 @@ namespace Service_Station
             this.tabPage2.Text = "Engine Oil";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // btn_engineOil_refresh
+            // 
+            this.btn_engineOil_refresh.Font = new System.Drawing.Font("UniSansBold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.btn_engineOil_refresh.Location = new System.Drawing.Point(516, 34);
+            this.btn_engineOil_refresh.Name = "btn_engineOil_refresh";
+            this.btn_engineOil_refresh.Size = new System.Drawing.Size(177, 39);
+            this.btn_engineOil_refresh.TabIndex = 16;
+            this.btn_engineOil_refresh.Text = "Refresh";
+            this.btn_engineOil_refresh.UseVisualStyleBackColor = true;
+            this.btn_engineOil_refresh.Click += new System.EventHandler(this.btn_engineOil_refresh_Click);
             // 
             // label1
             // 
@@ -198,7 +220,6 @@ namespace Service_Station
             this.Size = new System.Drawing.Size(1020, 547);
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
-            this.tabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.tabPage2.ResumeLayout(false);
             this.tabPage2.PerformLayout();
@@ -216,12 +237,13 @@ namespace Service_Station
         private System.Windows.Forms.TabPage tabPage2;
         private System.Windows.Forms.TabPage tabPage3;
         private System.Windows.Forms.DataGridView dataGridView1;
-        private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.DataGridView dataGridView2;
         private System.Windows.Forms.DataGridView dataGridView3;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.Button btn_engineOil_refresh;
     }
 }

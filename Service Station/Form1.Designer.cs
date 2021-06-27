@@ -32,8 +32,7 @@ namespace Service_Station
             this.panel1 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.Sidepanel = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
+            this.btn_ServiceAccountsDetails = new System.Windows.Forms.Button();
             this.btn_TypeofService = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btn_homePage = new System.Windows.Forms.Button();
@@ -68,8 +67,7 @@ namespace Service_Station
             // panel2
             // 
             this.panel2.BackColor = System.Drawing.SystemColors.Highlight;
-            this.panel2.Controls.Add(this.Sidepanel);
-            this.panel2.Controls.Add(this.button4);
+            this.panel2.Controls.Add(this.btn_ServiceAccountsDetails);
             this.panel2.Controls.Add(this.btn_TypeofService);
             this.panel2.Controls.Add(this.button2);
             this.panel2.Controls.Add(this.btn_homePage);
@@ -79,24 +77,16 @@ namespace Service_Station
             this.panel2.Size = new System.Drawing.Size(250, 693);
             this.panel2.TabIndex = 1;
             // 
-            // Sidepanel
+            // btn_ServiceAccountsDetails
             // 
-            this.Sidepanel.BackColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.Sidepanel.Location = new System.Drawing.Point(0, 0);
-            this.Sidepanel.Name = "Sidepanel";
-            this.Sidepanel.Size = new System.Drawing.Size(20, 125);
-            this.Sidepanel.TabIndex = 3;
-            // 
-            // button4
-            // 
-            this.button4.Font = new System.Drawing.Font("Uni Sans Heavy CAPS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button4.Location = new System.Drawing.Point(0, 452);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(250, 127);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Log in";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.btn_ServiceAccountsDetails.Font = new System.Drawing.Font("Uni Sans Heavy CAPS", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_ServiceAccountsDetails.Location = new System.Drawing.Point(0, 452);
+            this.btn_ServiceAccountsDetails.Name = "btn_ServiceAccountsDetails";
+            this.btn_ServiceAccountsDetails.Size = new System.Drawing.Size(250, 127);
+            this.btn_ServiceAccountsDetails.TabIndex = 3;
+            this.btn_ServiceAccountsDetails.Text = "Service Accounts Details";
+            this.btn_ServiceAccountsDetails.UseVisualStyleBackColor = true;
+            this.btn_ServiceAccountsDetails.Click += new System.EventHandler(this.button4_Click);
             // 
             // btn_TypeofService
             // 
@@ -127,7 +117,7 @@ namespace Service_Station
             this.btn_homePage.Name = "btn_homePage";
             this.btn_homePage.Size = new System.Drawing.Size(250, 127);
             this.btn_homePage.TabIndex = 0;
-            this.btn_homePage.Text = "Home Page";
+            this.btn_homePage.Text = "Customer Details";
             this.btn_homePage.UseVisualStyleBackColor = true;
             this.btn_homePage.Click += new System.EventHandler(this.btn_homePage_Click);
             // 
@@ -187,8 +177,7 @@ namespace Service_Station
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel Sidepanel;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btn_ServiceAccountsDetails;
         private System.Windows.Forms.Button btn_TypeofService;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btn_homePage;

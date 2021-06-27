@@ -25,6 +25,7 @@ namespace Service_Station
         
         public DataTable Select()
         {
+           
             SqlConnection conn = new SqlConnection(myconnstring);
             DataTable dt = new DataTable();
             try
@@ -130,7 +131,7 @@ namespace Service_Station
             {
                 String sql = "DELETE FROM Vehicle_tbl WHERE VehicleNo=@VehicleNo";
 
-                SqlCommand cmd = new SqlCommand(sql.conn);
+               /* SqlCommand cmd = new SqlCommand(sql.conn);
                 cmd.Parameters.AddWithValue("@VehicleNo", c.VehicleNo);
 
                 conn.Open();
@@ -142,7 +143,7 @@ namespace Service_Station
                 else
                 {
                     isSuccess = false;
-                }
+                }*/
             }
             catch(Exception ex)
             {

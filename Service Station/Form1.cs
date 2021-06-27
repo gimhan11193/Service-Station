@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using Service_Station;
 namespace Service_Station
 {
     public partial class Form1 : Form
@@ -19,7 +19,7 @@ namespace Service_Station
 
         private void btn_homePage_Click(object sender, EventArgs e)
         {
-            HomepgLogin ust = new HomepgLogin();
+            Uc_CustomerDetails ust = new Uc_CustomerDetails();
             MainControl.showControl(ust, Content);
         }
 
@@ -31,7 +31,7 @@ namespace Service_Station
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Login ust = new Login();
+            Uc_ServiceAccountsDetails ust = new Uc_ServiceAccountsDetails();
             MainControl.showControl(ust, Content);
         }
 

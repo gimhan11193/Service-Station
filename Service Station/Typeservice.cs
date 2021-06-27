@@ -29,10 +29,11 @@ namespace Service_Station
             dataGridView1.DataSource = ds.Tables[0];
             Con.Close();
         }
+        
         public void TextboxFilter()
         {
             Con.Open();
-            string query = "select * from Service_tbl where Vehicle Model = '"+textBox1+"'";
+            string query = "select * from Service_tbl where VehicleModel = '"+comboBox2+"'";
             SqlDataAdapter da = new SqlDataAdapter(query, Con);
             SqlCommandBuilder builder = new SqlCommandBuilder(da);
             var ds = new DataSet();
@@ -42,14 +43,27 @@ namespace Service_Station
         }
         public void ServiceFilter()
         {
-            Con.Open();
-            string query = "select * from Service_tbl where Service Type = '" + comboBox1.SelectedItem.ToString() + "'";
-            SqlDataAdapter da = new SqlDataAdapter(query, Con);
-            SqlCommandBuilder builder = new SqlCommandBuilder(da);
-            var ds = new DataSet();
-            da.Fill(ds);
-            dataGridView1.DataSource = ds.Tables[0];
-            Con.Close();
+            try
+            {
+                Con.Open();
+                string query = "select * from Service_tbl where ServiceType = '" + comboBox1.SelectedItem.ToString() + "'";
+                SqlDataAdapter da = new SqlDataAdapter(query, Con);
+                SqlCommandBuilder builder = new SqlCommandBuilder(da);
+                var ds = new DataSet();
+                da.Fill(ds);
+                dataGridView1.DataSource = ds.Tables[0];
+            }
+            catch(SqlException se)
+            {
+                MessageBox.Show("Error found!"+se);
+            }
+
+            finally
+            {
+                Con.Close();
+            }
+           
+            
         }
         private void tabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -63,7 +77,7 @@ namespace Service_Station
 
         private void tabPage2_Click(object sender, EventArgs e)
         {
-
+          
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -74,12 +88,22 @@ namespace Service_Station
         private void button2_Click(object sender, EventArgs e)
         {
             populateGrid();
-            textBox1.Text = "";
+            comboBox2.Text = "";
         }
 
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
             ServiceFilter();
+        }
+
+        private void comboBox2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            TextboxFilter();
+        }
+
+        private void btn_engineOil_refresh_Click(object sender, EventArgs e)
+        {
+            populateGrid();
         }
     }
 }
